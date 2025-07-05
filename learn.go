@@ -1,5 +1,5 @@
 package go_learn
 
-func Learn() string {
-	return "hello world broh"
+func Learn(name string) string {
+	return "hello world broh" + name
 }
